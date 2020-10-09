@@ -15,6 +15,7 @@
 		EE7C619925303F0D00A727C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7C619725303F0D00A727C2 /* LaunchScreen.storyboard */; };
 		EE7C61A425303F0D00A727C2 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C61A325303F0D00A727C2 /* SecondKadaiAppTests.swift */; };
 		EE7C61AF25303F0D00A727C2 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C61AE25303F0D00A727C2 /* SecondKadaiAppUITests.swift */; };
+		EE7C61BD2530405F00A727C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7C61BC2530405F00A727C2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EE7C61AA25303F0D00A727C2 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7C61AE25303F0D00A727C2 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		EE7C61B025303F0D00A727C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7C61BC2530405F00A727C2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		EE7C618025303F0C00A727C2 = {
 			isa = PBXGroup;
 			children = (
+				EE7C61BC2530405F00A727C2 /* SecondViewController.swift */,
 				EE7C618B25303F0C00A727C2 /* SecondKadaiApp */,
 				EE7C61A225303F0D00A727C2 /* SecondKadaiAppTests */,
 				EE7C61AD25303F0D00A727C2 /* SecondKadaiAppUITests */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7C61BD2530405F00A727C2 /* SecondViewController.swift in Sources */,
 				EE7C619125303F0C00A727C2 /* ViewController.swift in Sources */,
 				EE7C618D25303F0C00A727C2 /* AppDelegate.swift in Sources */,
 				EE7C618F25303F0C00A727C2 /* SceneDelegate.swift in Sources */,
