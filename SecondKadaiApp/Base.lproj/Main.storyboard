@@ -22,8 +22,7 @@
                                 <string key="userLabel">
 Decision</string>
                                 <connections>
-                                    <action selector="Decision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ElU-fR-LZr"/>
-                                    <segue destination="C3J-l4-Q8g" kind="show" id="AHK-T4-Fb2"/>
+                                    <segue destination="C3J-l4-Q8g" kind="show" id="yg1-vm-6ST"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o2A-mA-ByL">
@@ -45,7 +44,6 @@ Decision</string>
                     </view>
                     <connections>
                         <outlet property="input" destination="o2A-mA-ByL" id="qyn-LJ-e4b"/>
-                        <outlet property="kettei" destination="5qf-Ui-gJj" id="qYn-AQ-eiL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -60,13 +58,6 @@ Decision</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLI-aG-3qB">
-                                <rect key="frame" x="187.66666666666666" y="193" width="0.0" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHQ-7H-AkE">
                                 <rect key="frame" x="172" y="280" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -75,14 +66,18 @@ Decision</string>
                                     <segue destination="p2R-lI-YEQ" kind="unwind" unwindAction="back:" id="Cv6-dy-vUI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こんにちは" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zz7-5r-naB">
+                                <rect key="frame" x="144" y="175" width="87" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="gd5-fv-c4f"/>
                     </view>
                     <navigationItem key="navigationItem" id="Oh7-KL-VMN"/>
-                    <connections>
-                        <outlet property="lavel" destination="Vr2-gP-GRn" id="M3M-l6-N2D"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJM-pc-oEQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="p2R-lI-YEQ" userLabel="Exit" sceneMemberID="exit"/>

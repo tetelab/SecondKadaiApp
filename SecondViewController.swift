@@ -13,7 +13,7 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
-    var StrInput = ""
+    var StrInput:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
