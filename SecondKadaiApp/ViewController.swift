@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //入力値を変数に格納
     @IBOutlet weak var input: UITextField!
         
     override func viewDidLoad() {
@@ -23,7 +24,6 @@ class ViewController: UIViewController {
     
          // 入力値を「SecondViewController」に渡す
          SecondViewController.StrInput = input.text!
-         
      }
     
     @IBAction func back (_ segue: UIStoryboardSegue) {
